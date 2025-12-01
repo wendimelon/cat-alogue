@@ -1,0 +1,74 @@
+* {
+    outline: 2px solid red;
+    box-sizing: border-box;
+}
+
+/* ------------------------------------ */
+/* Top navigation bar */
+
+.top-nav {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    background-color: white;
+    padding-left: 112px;
+    padding-right: 112px;
+}
+
+
+/* -> Right-side menu */
+
+.right-menu {
+    overflow: hidden;
+    display: flex;
+    text-align: center;
+}
+
+nav .right-menu a {
+    color: grey;
+    text-align: center;
+    height: 100%;
+    padding: 16px 16px;
+    text-decoration: none;
+}
+
+nav .right-menu a:hover {
+    background-color: rgb(236, 236, 236);
+}
+
+/* TO FIXXXXX */
+.right-menu .menu-inactive {
+    background-color: white;
+}
+
+/* ------------------------------------ */
+/* PAGE */
+
+body {
+    background-color: pink;
+    margin: 0; 
+    font-family: monospace; 
+    color: #838383;  
+}
+
+.page {
+    margin-top: 32px;
+    margin-bottom: 64px;
+}
+
+.header-section {
+    text-align: center;
+}
+
+.bot-fold {
+    text-align: center;
+}
+
+.primary-button {
+    background-color: #FF7B7B;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 8px 16px;
+    color: white;
+    font-family: monospace;
+}
